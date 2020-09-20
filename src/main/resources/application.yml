@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: polaris-cloud-terminals
+    
+  datasource:
+    url: jdbc:sqlserver://localhost;databaseName=HiveTrxServer
+    username: sa
+    password: 12345678
+  jpa:
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    properties:      hibernate:
+        show_sql: true
